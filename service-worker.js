@@ -1,7 +1,7 @@
 const CACHE_NAME = 'noisescope-v6.3';
 const CORE_ASSETS = [
   './',
-  './NoiseScope_Web_V6_2_PWA.html',
+  './NoiseScope_Web_V6_3_PWA.html',
   './manifest.json',
   './favicon.png',
   './icon-192.png',
@@ -23,12 +23,12 @@ self.addEventListener('fetch', e => {
       const copy = net.clone();
       caches.open(CACHE_NAME).then(c => { try { c.put(e.request, copy); } catch(_){} });
       return net;
-    }).catch(() => caches.match(e.request)));
+    }).catch(()=>caches.match(e.request)));
     return;
   }
   e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).then(net => {
     const copy = net.clone();
     caches.open(CACHE_NAME).then(c => { try { c.put(e.request, copy); } catch(_){} });
     return net;
-  }).catch(() => caches.match('./NoiseScope_Web_V6_2_PWA.html'))));
+  }).catch(()=>caches.match('./NoiseScope_Web_V6_3_PWA.html'))));
 });

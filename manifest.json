@@ -2,7 +2,7 @@
   "name": "NoiseScope",
   "short_name": "NoiseScope",
   "description": "Outil de cartographie du bruit environnemental - Renault Group",
-  "start_url": "./NoiseScope_Web_V6_2_PWA.html",
+  "start_url": "./NoiseScope_Web_V6_3_PWA.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
