@@ -1,0 +1,282 @@
+[
+  {
+    "schema": "NoiseScope.site",
+    "id": "CLEON",
+    "name": "Cléon",
+    "center": {
+      "lat": 49.31577842058806,
+      "lon": 1.0487999242859436
+    },
+    "regPoints": [
+      {
+        "id": "LP1",
+        "type": "LP",
+        "lat": 49.3192,
+        "lon": 1.0469,
+        "ambDay": 60.5,
+        "ambNight": 54,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP2",
+        "type": "LP",
+        "lat": 49.3214,
+        "lon": 1.0543,
+        "ambDay": 60.5,
+        "ambNight": 52.5,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP3",
+        "type": "LP",
+        "lat": 49.3182,
+        "lon": 1.0552,
+        "ambDay": 59,
+        "ambNight": 44,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP4",
+        "type": "LP",
+        "lat": 49.3124,
+        "lon": 1.0493,
+        "ambDay": 50,
+        "ambNight": 46,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP5",
+        "type": "LP",
+        "lat": 49.3113,
+        "lon": 1.0436,
+        "ambDay": 52,
+        "ambNight": 46.5,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP6",
+        "type": "LP",
+        "lat": 49.3162,
+        "lon": 1.042,
+        "ambDay": 55.5,
+        "ambNight": 54.5,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP7",
+        "type": "LP",
+        "lat": 49.3182,
+        "lon": 1.0418,
+        "ambDay": 52.5,
+        "ambNight": 50.5,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "ZER1",
+        "type": "ZER",
+        "lat": 49.3172,
+        "lon": 1.0391,
+        "zerAmbDay": 49,
+        "zerAmbNight": 49.5,
+        "zerResDay": 48.5,
+        "zerResNight": 48.5,
+        "zerLimDay": 5,
+        "zerLimNight": 3
+      },
+      {
+        "id": "ZER2",
+        "type": "ZER",
+        "lat": 49.3124,
+        "lon": 1.0423,
+        "zerAmbDay": 43,
+        "zerAmbNight": 43,
+        "zerResDay": 45,
+        "zerResNight": 40,
+        "zerLimDay": 5,
+        "zerLimNight": 4
+      }
+    ]
+  },
+  {
+    "schema": "NoiseScope.site",
+    "version": "V5.1",
+    "id": "DOUAI",
+    "name": "Douai",
+    "country": "France",
+    "center": {
+      "lat": 50.36371278176188,
+      "lon": 3.0276062490915767
+    },
+    "regPoints": [
+      {
+        "id": "LP1",
+        "type": "LP",
+        "lat": 50.362442457351584,
+        "lon": 3.0224167675172637,
+        "ambDay": 61,
+        "ambNight": 57,
+        "limDay": 70,
+        "limNight": 60
+      },
+      {
+        "id": "LP2",
+        "type": "LP",
+        "lat": 50.36689100148625,
+        "lon": 3.0330812305508346,
+        "ambDay": 59,
+        "ambNight": 54.5,
+        "limDay": 70,
+        "limNight": 60
+      },
+      {
+        "id": "LP3",
+        "type": "LP",
+        "lat": 50.3686898653829,
+        "lon": 3.020840108492799,
+        "ambDay": 59,
+        "ambNight": 43.5,
+        "limDay": 70,
+        "limNight": 60
+      },
+      {
+        "id": "LP4",
+        "type": "LP",
+        "lat": 50.35169293674495,
+        "lon": 3.0273964545427012,
+        "ambDay": 50,
+        "ambNight": 44,
+        "limDay": 70,
+        "limNight": 60
+      },
+      {
+        "id": "LP5",
+        "type": "LP",
+        "lat": 50.37047075986148,
+        "lon": 3.0248427995389746,
+        "ambDay": 48.5,
+        "ambNight": 45,
+        "limDay": 70,
+        "limNight": 60
+      },
+      {
+        "id": "ZER1",
+        "type": "ZER",
+        "lat": 50.353444253467565,
+        "lon": 3.042916036869457,
+        "zerAmbDay": 58.5,
+        "zerAmbNight": 57.5,
+        "zerResDay": 61.5,
+        "zerResNight": 56.5,
+        "zerLimDay": 5,
+        "zerLimNight": 3
+      },
+      {
+        "id": "ZER2",
+        "type": "ZER",
+        "lat": 50.37279524256819,
+        "lon": 3.0249586209191612,
+        "zerAmbDay": 49,
+        "zerAmbNight": 44.5,
+        "zerResDay": 47,
+        "zerResNight": 44,
+        "zerLimDay": 5,
+        "zerLimNight": 3
+      },
+      {
+        "id": "ZER3",
+        "type": "ZER",
+        "lat": 50.37357530872024,
+        "lon": 3.0172553165747056,
+        "zerAmbDay": 49,
+        "zerAmbNight": 43.5,
+        "zerResDay": 47.5,
+        "zerResNight": 42.5,
+        "zerLimDay": 5,
+        "zerLimNight": 4
+      }
+    ]
+  },
+  {
+    "schema": "NoiseScope.site",
+    "id": "MAUBEUGE",
+    "name": "Maubeuge",
+    "country": "France",
+    "center": {
+      "lat": 50.272809046872844,
+      "lon": 3.914415728603058
+    },
+    "regPoints": [
+      {
+        "id": "LP1",
+        "type": "LP",
+        "lat": 50.27352561385674,
+        "lon": 3.9080964442628043,
+        "ambDay": 58,
+        "ambNight": 52.5,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP2",
+        "type": "LP",
+        "lat": 50.274948612117875,
+        "lon": 3.9067745446928774,
+        "ambDay": 59,
+        "ambNight": 53.5,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP3",
+        "type": "LP",
+        "lat": 50.27483204554382,
+        "lon": 3.9211994648382067,
+        "ambDay": 62.5,
+        "ambNight": 54.5,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "LP4",
+        "type": "LP",
+        "lat": 50.271168255490416,
+        "lon": 3.9212059937314723,
+        "ambDay": 63,
+        "ambNight": 54,
+        "limDay": 65,
+        "limNight": 55
+      },
+      {
+        "id": "ZER1",
+        "type": "ZER",
+        "lat": 50.28022491672989,
+        "lon": 3.9129842203436294,
+        "zerAmbDay": 59,
+        "zerAmbNight": 55,
+        "zerResDay": 58,
+        "zerResNight": 53,
+        "zerLimDay": 5,
+        "zerLimNight": 3
+      },
+      {
+        "id": "ZER2",
+        "type": "ZER",
+        "lat": 50.26852607242278,
+        "lon": 3.9218623202837977,
+        "zerAmbDay": 57,
+        "zerAmbNight": 51.5,
+        "zerResDay": 53,
+        "zerResNight": 44.5,
+        "zerLimDay": 5,
+        "zerLimNight": 3
+      }
+    ]
+  }
+]
